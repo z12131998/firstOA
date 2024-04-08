@@ -3,14 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.first</groupId>
-    <artifactId>firstOA-web</artifactId>
+    <artifactId>firstOA-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>firstOA-web</name>
+    <name>firstOA-service</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.6.13</spring-boot.version>
     </properties>
 
     <parent>
@@ -20,10 +21,6 @@
     </parent>
 
     <dependencies>
-        <dependency>
-            <groupId>com.first</groupId>
-            <artifactId>firstOA-service</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.first</groupId>
             <artifactId>firstOA-common</artifactId>
@@ -47,7 +44,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.6.13</version>
                 <configuration>
-                    <mainClass>com.first.FirstOaWebApplication</mainClass>
+                    <mainClass>com.first.service.FirstOaServiceApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
