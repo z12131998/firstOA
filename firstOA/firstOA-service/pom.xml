@@ -25,6 +25,10 @@
             <groupId>com.first</groupId>
             <artifactId>firstOA-common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.first</groupId>
+            <artifactId>firstOA-dao</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
