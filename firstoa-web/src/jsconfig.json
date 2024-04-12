@@ -1,0 +1,12 @@
+{  // alias 别名路径跳转插件配置
+  "alias-skip.allowedsuffix": ["js", "vue", "jsx", "ts", "tsx"],
+  "alias-skip.rootpath": "package.json",
+  "alias-skip.mappings": {
+    "@react-page": "/packages/react-page/src",
+    "@vue-page": "/packages/vue-page",
+    "@": "/src", // 默认只有`@`映射，映射到`/src`，你可以添加更多映射，映射路径必须以`/`开头
+    "components": ["/src/components"],
+    "assets": ["/src/assets"]
+    // ...更多映射关系
+  },
+}
